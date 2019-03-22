@@ -142,7 +142,7 @@ function buildCharts(sample) {
     var trace2 = {
       values: sort_value,
       labels: otu_ids2,
-      text: otu_labels2,
+      hoverinfo: otu_labels2,
       type: 'pie',
     };
 
